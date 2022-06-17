@@ -1,0 +1,45 @@
+.producto {
+  border: 0.5px solid #7a757a;
+  padding: 20px;
+  width: 33%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #ede5e2;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.agotado {
+  background-color: rgb(167, 161, 161);
+  padding: 3px;
+  font-weight: lighter;
+  color: rgb(155, 0, 0);
+  border-radius: 3px;
+}
+
+.btn {
+  padding: 5px;
+  text-transform: uppercase;
+  background-color: #b2abaa;
+  color: #0d0d0d;
+  border: solid 0.2px #7a757a;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.disabled {
+  padding: 5px;
+  text-transform: uppercase;
+  cursor: not-allowed;
+  pointer-events: none;
+  border: inset;
+  background-color: #b2abaa;
+  color: #d4c7ce;
+}

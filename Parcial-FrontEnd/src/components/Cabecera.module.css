@@ -1,0 +1,20 @@
+.encabezado {
+  background-color: #bbb8b4;
+  padding: 20px 40px;
+  color: #0d0d0d;
+  font-family:Helvetica;
+}
+
+.titulo {
+  margin-bottom: 10px;
+  color: #0d0d0d;
+  font-family:Helvetica;
+}
+
+.descripcion {
+  background-color: #694F5D;
+  color: #f3ece7;
+  padding: 3px 5px;
+  border-radius: 5px;
+  font-family:Helvetica;
+}
